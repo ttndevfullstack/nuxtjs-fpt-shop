@@ -1,5 +1,5 @@
 <script setup>
-import { TypeProducts } from "../constants/index";
+import { TypeProducts } from '~/constants/index';
 </script>
 
 <template>

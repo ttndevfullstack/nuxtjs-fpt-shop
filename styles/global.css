@@ -12,7 +12,11 @@
 }
 
 body {
-  font-family: "Roboto"
+  font-family: "Roboto",
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .product-shadow:hover {

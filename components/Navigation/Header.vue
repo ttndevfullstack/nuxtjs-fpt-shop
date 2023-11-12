@@ -1,5 +1,5 @@
 <script setup>
-import SvgIcon from "vue3-icon";
+import SvgIcon from 'vue3-icon';
 
 const props = defineProps({
   icon: {

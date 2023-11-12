@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header logo="../public/images/logo.png" />
+    <Header logo="/images/logo.png" />
     <Navbar />
     <slot />
     <Footer />

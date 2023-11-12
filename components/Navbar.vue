@@ -1,6 +1,6 @@
 <script setup>
 import SvgIcon from "vue3-icon";
-import { NavLinks } from "../constants/index";
+import { NavLinks } from "~/constants/index";
 
 const props = defineProps({
   icon: {
