@@ -65,106 +65,113 @@ export const TypeProducts = [
 
 export const ProductList = [
   {
+    id: 1,
     image: '/images/ip-15-pro-max.webp',
     name: 'iPhone 15 Pro Max 256GB',
     price: '2.990.000',
     oldPrice: '4.290.000',
     discount: 'Giảm 1.300.000đ',
     paymentType: ['kredivo', 'zalopay', 'vnpay'],
-    descriptionPayment: {
+    descriptionPayments: {
       kredivo: 'Giảm đến 200.000đ qua Kredivo',
-      zalo: 'Giảm đến 200.000đ qua ZaloPay-QR',
+      zalopay: 'Giảm đến 200.000đ qua ZaloPay-QR',
       vnpay: 'Giảm đến 200.000đ qua VNPAY',
     },
   },
   {
+    id: 2,
     image: '/images/oppo-reno10-5g-xanh-5.webp',
     name: 'OPPO Reno10 5G 128GB',
     price: '2.990.000',
     oldPrice: '4.290.000',
     discount: 'Giảm 1.300.000đ',
-    paymentType: ['kredivo', 'zalopay', 'vnpay'],
-    descriptionPayment: {
+    paymentType: ['kredivo', 'zalopay'],
+    descriptionPayments: {
       kredivo: 'Giảm đến 200.000đ qua Kredivo',
-      zalo: 'Giảm đến 200.000đ qua ZaloPay-QR',
-      vnpay: 'Giảm đến 200.000đ qua VNPAY',
+      zalopay: 'Giảm đến 200.000đ qua ZaloPay-QR',
     },
   },
   {
+    id: 3,
     image: '/images/xiaomi-redmi-note-12-dd-bh.webp',
     name: 'Xiaomi Redmi Note 12 4GB-128GB',
     price: '2.990.000',
     oldPrice: '4.290.000',
     discount: 'Giảm 1.300.000đ',
-    paymentType: ['kredivo', 'zalopay', 'vnpay'],
-    descriptionPayment: {
+    paymentType: ['kredivo', 'OCB', 'vnpay'],
+    descriptionPayments: {
       kredivo: 'Giảm đến 200.000đ qua Kredivo',
-      zalo: 'Giảm đến 200.000đ qua ZaloPay-QR',
+      ocb: 'OCB cardholders: Additional discount of 500,000 VND',
       vnpay: 'Giảm đến 200.000đ qua VNPAY',
     },
   },
   {
+    id: 4,
     image: '/images/asus-tuf-gaming-fx506hf-den-dd-moi.webp',
     name: 'Laptop Asus TUF Gaming FX506HF - HN017W i5-11400H',
     price: '2.990.000',
     oldPrice: '4.290.000',
     discount: 'Giảm 1.300.000đ',
     paymentType: ['kredivo', 'zalopay', 'vnpay'],
-    descriptionPayment: {
+    descriptionPayments: {
       kredivo: 'Giảm đến 200.000đ qua Kredivo',
-      zalo: 'Giảm đến 200.000đ qua ZaloPay-QR',
+      zalopay: 'Giảm đến 200.000đ qua ZaloPay-QR',
       vnpay: 'Giảm đến 200.000đ qua VNPAY',
     },
   },
   {
+    id: 5,
     image: '/images/samsung-galaxy-a14-4g-dd.webp',
     name: 'Samsung Galaxy A14 4G',
     price: '2.990.000',
     oldPrice: '4.290.000',
     discount: 'Giảm 1.300.000đ',
     paymentType: ['kredivo', 'zalopay', 'vnpay'],
-    descriptionPayment: {
+    descriptionPayments: {
       kredivo: 'Giảm đến 200.000đ qua Kredivo',
-      zalo: 'Giảm đến 200.000đ qua ZaloPay-QR',
+      zalopay: 'Giảm đến 200.000đ qua ZaloPay-QR',
       vnpay: 'Giảm đến 200.000đ qua VNPAY',
     },
   },
   {
+    id: 6,
     image: '/images/oppo-reno8-t-4g-dd.webp',
     name: 'OPPO Reno8 T 4G 256GB',
     price: '2.990.000',
     oldPrice: '4.290.000',
     discount: 'Giảm 1.300.000đ',
     paymentType: ['kredivo', 'zalopay', 'vnpay'],
-    descriptionPayment: {
+    descriptionPayments: {
       kredivo: 'Giảm đến 200.000đ qua Kredivo',
-      zalo: 'Giảm đến 200.000đ qua ZaloPay-QR',
+      zalopay: 'Giảm đến 200.000đ qua ZaloPay-QR',
       vnpay: 'Giảm đến 200.000đ qua VNPAY',
     },
   },
   {
+    id: 7,
     image: '/images/msi-gaming-gf63-thin-11uc-den-dd.webp',
     name: 'Máy tính xách tay MSI Gaming Thin GF63 12VE-454VN i5-12450H/16GB/512GB/15.6&quot; FHD/RTX4050_6GB/Win 11',
     price: '2.990.000',
     oldPrice: '4.290.000',
     discount: 'Giảm 1.300.000đ',
     paymentType: ['kredivo', 'zalopay', 'vnpay'],
-    descriptionPayment: {
+    descriptionPayments: {
       kredivo: 'Giảm đến 200.000đ qua Kredivo',
-      zalo: 'Giảm đến 200.000đ qua ZaloPay-QR',
+      zalopay: 'Giảm đến 200.000đ qua ZaloPay-QR',
       vnpay: 'Giảm đến 200.000đ qua VNPAY',
     },
   },
   {
+    id: 8,
     image: '/images/xiaomi-redmi-10-2022-dd-docquyen.webp',
     name: 'Xiaomi Redmi 10 2022 4GB-128GB',
     price: '2.990.000',
     oldPrice: '4.290.000',
     discount: 'Giảm 1.300.000đ',
     paymentType: ['kredivo', 'zalopay', 'vnpay'],
-    descriptionPayment: {
+    descriptionPayments: {
       kredivo: 'Giảm đến 200.000đ qua Kredivo',
-      zalo: 'Giảm đến 200.000đ qua ZaloPay-QR',
+      zalopay: 'Giảm đến 200.000đ qua ZaloPay-QR',
       vnpay: 'Giảm đến 200.000đ qua VNPAY',
     },
   },
