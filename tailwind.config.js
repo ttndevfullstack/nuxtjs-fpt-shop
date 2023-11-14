@@ -11,18 +11,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#cd1818',
-        nav: '#252525',
-        paragraph: '#212529',
+        primary: 'var(--color-primary)',
+        nav: 'var(--color-navigation)',
+        paragraph: 'var(--color-paragraph)',
       },
       width: {
-        search: '496px',
-        app: '1200px',
+        search: 'var(--width-search)',
+        app: 'var(--width-app)',
       },
       height: {
-        search: '38px',
-        header: '56px',
-        nav: '36px',
+        search: 'var(--height-search)',
+        header: 'var(--height-header)',
+        nav: 'var(--height-nav)',
       },
     },
   },

@@ -3,7 +3,23 @@
 @tailwind components;
 @tailwind utilities;
 
-/*=================> [Config default] <=================*/
+
+:root {
+  /*------ Colors ------*/
+  --color-primary: #cd1818;
+  --color-navigation: #252525;
+  --color-paragraph: #212529;
+
+  /*------ Sizes ------*/
+  --width-search: 496px;
+  --width-app: 1200px;
+  --height-search: 38px;
+  --height-header: 56px;
+  --height-nav: 36px;
+}
+
+
+/*============[ Config default ]============*/
 
 * {
   padding: 0;
